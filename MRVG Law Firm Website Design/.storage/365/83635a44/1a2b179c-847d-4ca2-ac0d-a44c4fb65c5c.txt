@@ -1,0 +1,138 @@
+$ ls -la public/assets/images/
+total 25770
+drwxrwxr-x 42 root root 8822784 May 26 18:39 .
+drwxrwxr-x 43 root root 8826880 May 22 21:19 ..
+-rw-rw-r--  1 root root       0 May 22 21:19 .gitkeep
+-rw-r--r--  1 root root   44290 May 26 17:59 Anos.png
+-rw-r--r--  1 root root 1617071 May 26 18:39 Arte15anos.png
+-rw-rw-r--  1 root root   49507 May 22 21:19 Dr_Leonardo.png
+-rw-rw-r--  1 root root   56695 May 22 21:19 Dr_Luis.png
+-rw-rw-r--  1 root root   55645 May 22 21:19 Dr_Marcos.png
+-rw-r--r--  1 root root   44290 May 26 16:11 anniversary_logo.png
+-rw-r--r--  1 root root  312000 May 23 07:29 anniversary_logo.svg
+-rw-r--r--  1 root root 1617071 May 26 16:47 arte15anos.png
+-rw-rw-r--  1 root root       0 May 22 21:19 blog-1.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 blog-2.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 blog-3.jpg
+-rw-rw-r--  1 root root  135452 May 22 21:19 hero-bg.jpg
+-rw-rw-r--  1 root root  135452 May 22 21:19 hero-new.jpeg
+-rw-rw-r--  1 root root      62 May 22 21:19 image_placeholder.txt
+-rw-rw-r--  1 root root       0 May 22 21:19 labor-law.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 legal-tax-law.jpg
+-rw-rw-r--  1 root root  694237 May 22 21:19 logoMRVG.svg
+-rw-r--r--  1 root root   91904 May 26 18:36 logo_15_sombra.png
+-rw-r--r--  1 root root   43436 May 23 18:13 logo_cinza.png
+-rw-r--r--  1 root root   52401 May 23 18:18 logo_white.png
+drwxrwxr-x  3 root root   73728 May 22 21:19 logos
+-rw-rw-r--  1 root root  694237 May 22 21:19 newLogo.svg
+-rw-r--r--  1 root root   80105 May 26 17:43 new_anniversary_art.jpeg
+-rw-r--r--  1 root root 1617071 May 26 16:37 new_anniversary_art.png
+-rw-rw-r--  1 root root   89345 May 26 18:21 office-img.jpg
+-rw-rw-r--  1 root root 1000515 May 22 21:19 screenshot.png
+-rw-rw-r--  1 root root       0 May 22 21:19 supreme-court.jpg
+drwxrwxr-x  8 root root  229376 May 22 21:19 team
+-rw-rw-r--  1 root root       0 May 22 21:19 team-1.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 team-2.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 team-3.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 team-4.jpg
+$ cp /data/chats/eayp7/workspace/uploads/artigoTrib.png public/assets/images/legal-tax-law.jpg
+
+$ ls -la public/assets/images/legal-tax-law.jpg
+
+-rw-rw-r-- 1 root root 4268446 May 26 18:53 public/assets/images/legal-tax-law.jpg
+$ cp /data/chats/eayp7/workspace/uploads/supremo_tribunal_federal_stf_09.jpg.webp public/assets/images/supreme-court.jpg
+
+$ ls -la public/assets/images/legal-tax-law.jpg public/assets/images/supreme-court.jpg
+
+-rw-rw-r-- 1 root root 4268446 May 26 18:53 public/assets/images/legal-tax-law.jpg
+-rw-rw-r-- 1 root root 1633436 May 26 18:53 public/assets/images/supreme-court.jpg
+$ grep -r "legal-tax-law" --include="*.jsx" --include="*.js" ./src
+
+./src/components/Blog.jsx:      image: "/assets/images/legal-tax-law.jpg"
+$ grep -r "supreme-court" --include="*.jsx" --include="*.js" ./src
+
+./src/components/Blog.jsx:      image: "/assets/images/supreme-court.jpg"
+./src/utils/blogData.js:    image: "/assets/images/supreme-court-building.jpg",
+$ cp /data/chats/eayp7/workspace/uploads/1-tst2.jpg public/assets/images/labor-law.jpg
+
+$ ls -la public/assets/images/legal-tax-law.jpg public/assets/images/supreme-court.jpg public/assets/images/labor-law.jpg
+
+-rw-rw-r-- 1 root root 1238792 May 26 18:54 public/assets/images/labor-law.jpg
+-rw-rw-r-- 1 root root 4268446 May 26 18:53 public/assets/images/legal-tax-law.jpg
+-rw-rw-r-- 1 root root 1633436 May 26 18:53 public/assets/images/supreme-court.jpg
+$ ls -l /proc/*/cwd | grep react_template
+
+ls: cannot read symbolic link '/proc/200/cwd': No such file or directory
+ls: cannot read symbolic link '/proc/44/cwd': Permission denied
+ls: cannot read symbolic link '/proc/45/cwd': Permission denied
+ls: cannot read symbolic link '/proc/46/cwd': Permission denied
+ls: cannot read symbolic link '/proc/47/cwd': Permission denied
+ls: cannot read symbolic link '/proc/48/cwd': Permission denied
+ls: cannot read symbolic link '/proc/49/cwd': Permission denied
+ls: cannot read symbolic link '/proc/50/cwd': Permission denied
+ls: cannot read symbolic link '/proc/51/cwd': Permission denied
+ls: cannot read symbolic link '/proc/52/cwd': Permission denied
+ls: cannot read symbolic link '/proc/53/cwd': Permission denied
+ls: cannot read symbolic link '/proc/54/cwd': Permission denied
+ls: cannot read symbolic link '/proc/55/cwd': Permission denied
+ls: cannot read symbolic link '/proc/56/cwd': Permission denied
+ls: cannot read symbolic link '/proc/57/cwd': Permission denied
+ls: cannot read symbolic link '/proc/58/cwd': Permission denied
+ls: cannot read symbolic link '/proc/59/cwd': Permission denied
+lrwxrwxrwx 1 root  root  0 May 26 18:55 /proc/4835/cwd -> /data/chats/eayp7/workspace/react_template
+lrwxrwxrwx 1 root  root  0 May 26 18:55 /proc/4837/cwd -> /data/chats/eayp7/workspace/react_template
+lrwxrwxrwx 1 root  root  0 May 26 18:55 /proc/4848/cwd -> /data/chats/eayp7/workspace/react_template
+lrwxrwxrwx 1 root  root  0 May 26 18:55 /proc/4849/cwd -> /data/chats/eayp7/workspace/react_template
+lrwxrwxrwx 1 root  root  0 May 26 18:55 /proc/4870/cwd -> /data/chats/eayp7/workspace/react_template
+lrwxrwxrwx 1 root  root  0 May 26 18:52 /proc/5090/cwd -> /data/chats/eayp7/workspace/react_template
+lrwxrwxrwx 1 root  root  0 May 26 18:55 /proc/5259/cwd -> /data/chats/eayp7/workspace/react_template
+lrwxrwxrwx 1 root  root  0 May 26 18:55 /proc/5260/cwd -> /data/chats/eayp7/workspace/react_template
+lrwxrwxrwx 1 root  root  0 May 26 18:55 /proc/self/cwd -> /data/chats/eayp7/workspace/react_template
+lrwxrwxrwx 1 root  root  0 May 26 18:55 /proc/thread-self/cwd -> /data/chats/eayp7/workspace/react_template
+$ ps aux | grep vite | grep -v grep
+
+root      4848  0.0  0.0   2888   964 ?        S    18:49   0:00 sh -c vite
+root      4849  0.9  0.1 22571760 125396 ?     Sl   18:49   0:03 node /data/chats/eayp7/workspace/react_template/node_modules/.bin/../vite/bin/vite.js
+$ ps aux | grep -E "node.*vite" | grep -v grep
+
+root      4849  0.9  0.1 22571760 125396 ?     Sl   18:49   0:03 node /data/chats/eayp7/workspace/react_template/node_modules/.bin/../vite/bin/vite.js
+$ cd /data/chats/eayp7/workspace/react_template && pnpm build && cd dist && ls -la
+
+
+> react-template@0.0.0 build /data/chats/eayp7/workspace/react_template
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 51 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.15 kB │ gzip:   0.68 kB
+dist/assets/index-CECHWX-p.css   35.95 kB │ gzip:   6.52 kB
+dist/assets/index-BlsKWJkm.js   413.97 kB │ gzip: 132.70 kB
+✓ built in 3.18s
+total 289590
+drwxr-xr-x     3 root root      8192 May 26 18:56 .
+drwxrwxr-x 19914 root root 280104960 May 26 18:56 ..
+drwxr-xr-x    45 root root  16416768 May 26 18:56 assets
+drwxr-xr-x     3 root root      8192 May 26 18:56 data
+-rw-r--r--     1 root root      1150 May 26 18:56 index.html
+$ cd /data/chats/eayp7/workspace/react_template && ls -la src/components
+
+total 355
+drwxrwxr-x 16 root root 118784 May 26 18:17 .
+drwxrwxr-x 22 root root 151552 May 22 21:19 ..
+-rw-rw-r--  1 root root   6289 May 26 18:41 About.jsx
+-rw-rw-r--  1 root root   1134 May 26 18:37 AnniversaryBanner.jsx
+-rw-rw-r--  1 root root   1381 May 26 18:36 AnniversaryLogo.jsx
+-rw-rw-r--  1 root root   3913 May 22 21:19 Blog.jsx
+-rw-rw-r--  1 root root   7723 May 22 21:19 ChatBot.jsx
+-rw-r--r--  1 root root  10210 May 26 18:39 Commemorative.jsx
+-rw-rw-r--  1 root root  11923 May 22 21:19 Contact.jsx
+-rw-rw-r--  1 root root   6728 May 23 06:00 Footer.jsx
+-rw-rw-r--  1 root root   9123 May 26 18:40 Header.jsx
+-rw-rw-r--  1 root root   4496 May 26 18:38 Hero.jsx
+-rw-r--r--  1 root root   8170 May 26 18:11 LegalThemeImage.jsx
+-rw-r--r--  1 root root   9765 May 26 18:21 OfficeImage.jsx
+-rw-rw-r--  1 root root   4394 May 26 18:38 Services.jsx
+-rw-rw-r--  1 root root   3718 May 22 21:19 Team.jsx

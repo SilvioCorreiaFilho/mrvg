@@ -1,0 +1,88 @@
+$ ls -la /data/chats/eayp7/workspace/uploads/
+total 315719
+drwxrwxr-x    31 root root  20844544 May 23 18:12 .
+drwxr-xr-x 20175 root root 281657344 May 23 18:17 ..
+-rw-rw-r--     1 root root   2498029 May 22 21:19 Captura de Tela 2025-05-22 às 21.24.25.png
+-rw-rw-r--     1 root root    955039 May 22 21:19 Captura de Tela 2025-05-22 às 21.27.42.png
+-rw-rw-r--     1 root root   1000515 May 22 21:19 Captura de Tela 2025-05-22 às 21.39.51.png
+-rw-rw-r--     1 root root   3271093 May 22 21:19 Captura de Tela 2025-05-22 às 22.20.56.png
+-rw-rw-r--     1 root root   2034382 May 22 21:19 Captura de Tela 2025-05-22 às 22.21.08.png
+-rw-rw-r--     1 root root   4750223 May 22 21:19 Captura de Tela 2025-05-23 às 00.18.07.png
+-rw-r--r--     1 root root   3279050 May 23 17:55 Captura de Tela 2025-05-23 às 21.54.49.png
+-rw-r--r--     1 root root    312000 May 23 07:28 Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg
+-rw-rw-r--     1 root root     49507 May 22 21:19 Dr_Leonardo (1).png
+-rw-rw-r--     1 root root     49507 May 22 21:19 Dr_Leonardo.png
+-rw-rw-r--     1 root root     56695 May 22 21:19 Dr_Luis (1).png
+-rw-rw-r--     1 root root     56695 May 22 21:19 Dr_Luis.png
+-rw-rw-r--     1 root root     55645 May 22 21:19 Dr_Marcos (1).png
+-rw-rw-r--     1 root root     55645 May 22 21:19 Dr_Marcos.png
+-rw-rw-r--     1 root root     15010 May 22 21:19 IMG-20250520-WA0055 (1).jpg
+-rw-rw-r--     1 root root     15010 May 22 21:19 IMG-20250520-WA0055.jpg
+-rw-rw-r--     1 root root     67995 May 22 21:19 Logo_MRVG.svg
+-rw-r--r--     1 root root    311165 May 23 08:24 Logo_transp_15anos (1).svg
+-rw-r--r--     1 root root    311165 May 23 12:22 Logo_transp_15anos (2).svg
+-rw-r--r--     1 root root    311165 May 23 08:17 Logo_transp_15anos.svg
+-rw-rw-r--     1 root root     10084 May 22 21:19 Luis.jpeg
+-rw-rw-r--     1 root root    135452 May 22 21:19 WhatsApp Image 2025-05-13 at 16.35.35.jpeg
+-rw-rw-r--     1 root root     36420 May 22 21:19 leonardo.jpeg
+-rw-rw-r--     1 root root    694237 May 22 21:19 logoMRVG.svg
+-rw-r--r--     1 root root    262272 May 23 07:20 logoSite.svg
+-rw-r--r--     1 root root     91904 May 23 12:25 logo_15_sombra.png
+-rw-r--r--     1 root root     43436 May 23 18:12 logo_cinza.png
+-rw-r--r--     1 root root     52401 May 23 12:31 logo_original.png
+-rw-rw-r--     1 root root      6011 May 22 21:19 marcos.jpeg
+$ ls -la public/assets/images/ | grep logo
+
+-rw-r--r--  1 root root   52401 May 23 12:32 anniversary_logo.png
+-rw-r--r--  1 root root  312000 May 23 07:29 anniversary_logo.svg
+-rw-rw-r--  1 root root  694237 May 22 21:19 logoMRVG.svg
+-rw-r--r--  1 root root   43436 May 23 18:13 logo_cinza.png
+drwxrwxr-x  3 root root   73728 May 22 21:19 logos
+$ cp /data/chats/eayp7/workspace/uploads/logo_original.png public/assets/images/logo_white.png && ls -la public/assets/images/logo_*.png
+
+-rw-r--r-- 1 root root 43436 May 23 18:13 public/assets/images/logo_cinza.png
+-rw-r--r-- 1 root root 52401 May 23 18:18 public/assets/images/logo_white.png
+$ ls -la /data/chats/eayp7/workspace/uploads/
+
+total 328388
+drwxrwxr-x    32 root root  24182784 May 23 18:22 .
+drwxr-xr-x 20193 root root 287956992 May 23 18:23 ..
+-rw-rw-r--     1 root root   2498029 May 22 21:19 Captura de Tela 2025-05-22 às 21.24.25.png
+-rw-rw-r--     1 root root    955039 May 22 21:19 Captura de Tela 2025-05-22 às 21.27.42.png
+-rw-rw-r--     1 root root   1000515 May 22 21:19 Captura de Tela 2025-05-22 às 21.39.51.png
+-rw-rw-r--     1 root root   3271093 May 22 21:19 Captura de Tela 2025-05-22 às 22.20.56.png
+-rw-rw-r--     1 root root   2034382 May 22 21:19 Captura de Tela 2025-05-22 às 22.21.08.png
+-rw-rw-r--     1 root root   4750223 May 22 21:19 Captura de Tela 2025-05-23 às 00.18.07.png
+-rw-r--r--     1 root root   3279050 May 23 17:55 Captura de Tela 2025-05-23 às 21.54.49.png
+-rw-r--r--     1 root root   3335233 May 23 18:22 Captura de Tela 2025-05-23 às 22.21.40.png
+-rw-r--r--     1 root root    312000 May 23 07:28 Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg
+-rw-rw-r--     1 root root     49507 May 22 21:19 Dr_Leonardo (1).png
+-rw-rw-r--     1 root root     49507 May 22 21:19 Dr_Leonardo.png
+-rw-rw-r--     1 root root     56695 May 22 21:19 Dr_Luis (1).png
+-rw-rw-r--     1 root root     56695 May 22 21:19 Dr_Luis.png
+-rw-rw-r--     1 root root     55645 May 22 21:19 Dr_Marcos (1).png
+-rw-rw-r--     1 root root     55645 May 22 21:19 Dr_Marcos.png
+-rw-rw-r--     1 root root     15010 May 22 21:19 IMG-20250520-WA0055 (1).jpg
+-rw-rw-r--     1 root root     15010 May 22 21:19 IMG-20250520-WA0055.jpg
+-rw-rw-r--     1 root root     67995 May 22 21:19 Logo_MRVG.svg
+-rw-r--r--     1 root root    311165 May 23 08:24 Logo_transp_15anos (1).svg
+-rw-r--r--     1 root root    311165 May 23 12:22 Logo_transp_15anos (2).svg
+-rw-r--r--     1 root root    311165 May 23 08:17 Logo_transp_15anos.svg
+-rw-rw-r--     1 root root     10084 May 22 21:19 Luis.jpeg
+-rw-rw-r--     1 root root    135452 May 22 21:19 WhatsApp Image 2025-05-13 at 16.35.35.jpeg
+-rw-rw-r--     1 root root     36420 May 22 21:19 leonardo.jpeg
+-rw-rw-r--     1 root root    694237 May 22 21:19 logoMRVG.svg
+-rw-r--r--     1 root root    262272 May 23 07:20 logoSite.svg
+-rw-r--r--     1 root root     91904 May 23 12:25 logo_15_sombra.png
+-rw-r--r--     1 root root     43436 May 23 18:12 logo_cinza.png
+-rw-r--r--     1 root root     52401 May 23 12:31 logo_original.png
+-rw-rw-r--     1 root root      6011 May 22 21:19 marcos.jpeg
+$ cd /data/chats/eayp7/workspace && cp uploads/"Captura de Tela 2025-05-23 às 22.21.40.png" react_template/public/assets/images/reference.png
+
+cp: cannot stat 'uploads/Captura de Tela 2025-05-23 às 22.21.40.png': No such file or directory
+$ cd /data/chats/eayp7/workspace && find uploads -name "*22.21.40.png" -type f -print
+
+uploads/Captura de Tela 2025-05-23 às 22.21.40.png
+$ cd /data/chats/eayp7/workspace && mkdir -p react_template/public/assets/images && cp 'uploads/Captura de Tela 2025-05-23 às 22.21.40.png' react_template/public/assets/images/reference.png
+
+cp: cannot stat 'uploads/Captura de Tela 2025-05-23 às 22.21.40.png': No such file or directory

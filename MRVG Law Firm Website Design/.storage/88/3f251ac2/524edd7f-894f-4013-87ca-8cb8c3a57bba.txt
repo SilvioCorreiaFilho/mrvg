@@ -1,0 +1,39 @@
+Restarting the service ...
+
+
+> react-template@0.0.0 dev /data/chats/eayp7/workspace/react_template
+> vite
+
+
+  VITE v5.4.19  ready in 461 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+6:13:44 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:14:03 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:14:21 PM [vite] hmr update /src/index.css
+6:14:36 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:14:43 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:15:19 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:18:37 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:22:51 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:23:06 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:23:44 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:23:58 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:24:15 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:24:32 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:24:38 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:25:09 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:25:34 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:25:42 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:29:24 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:30:08 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:30:52 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:31:00 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:35:36 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:37:19 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:37:28 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:37:38 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:37:47 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:37:57 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:38:10 PM [vite] hmr update /src/components/Header.jsx, /src/index.css

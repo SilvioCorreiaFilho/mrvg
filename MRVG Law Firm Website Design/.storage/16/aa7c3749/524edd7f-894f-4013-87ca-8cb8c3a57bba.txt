@@ -1,0 +1,7 @@
+$ find . -type f -name "*.jsx" | grep -i -E "(hero|banner|home|main|anniversary)" | head -10
+./src/components/AnniversaryBanner.jsx
+./src/components/AnniversaryLogo.jsx
+./src/components/Hero.jsx
+./src/main.jsx
+$ grep -r "import Anniversary" --include="*.jsx" --include="*.js" ./src/
+

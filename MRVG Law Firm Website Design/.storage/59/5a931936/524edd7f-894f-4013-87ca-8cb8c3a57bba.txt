@@ -1,0 +1,82 @@
+$ find /data/chats/eayp7 -name "*.svg"
+/data/chats/eayp7/workspace/react_template/public/assets/images/logoMRVG.svg
+/data/chats/eayp7/workspace/react_template/public/assets/images/logos/Logo_MRVG.svg
+/data/chats/eayp7/workspace/react_template/public/assets/images/newLogo.svg
+/data/chats/eayp7/workspace/uploads/Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg
+/data/chats/eayp7/workspace/uploads/Logo_MRVG.svg
+/data/chats/eayp7/workspace/uploads/logoMRVG.svg
+/data/chats/eayp7/workspace/uploads/logoSite.svg
+$ ls -la /data/chats/eayp7/workspace/uploads/
+
+total 261808
+drwxrwxr-x    24 root root  16437248 May 23 07:28 .
+drwxr-xr-x 19975 root root 235261952 May 23 07:29 ..
+-rw-rw-r--     1 root root   2498029 May 22 21:19 Captura de Tela 2025-05-22 às 21.24.25.png
+-rw-rw-r--     1 root root    955039 May 22 21:19 Captura de Tela 2025-05-22 às 21.27.42.png
+-rw-rw-r--     1 root root   1000515 May 22 21:19 Captura de Tela 2025-05-22 às 21.39.51.png
+-rw-rw-r--     1 root root   3271093 May 22 21:19 Captura de Tela 2025-05-22 às 22.20.56.png
+-rw-rw-r--     1 root root   2034382 May 22 21:19 Captura de Tela 2025-05-22 às 22.21.08.png
+-rw-rw-r--     1 root root   4750223 May 22 21:19 Captura de Tela 2025-05-23 às 00.18.07.png
+-rw-r--r--     1 root root    312000 May 23 07:28 Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg
+-rw-rw-r--     1 root root     49507 May 22 21:19 Dr_Leonardo (1).png
+-rw-rw-r--     1 root root     49507 May 22 21:19 Dr_Leonardo.png
+-rw-rw-r--     1 root root     56695 May 22 21:19 Dr_Luis (1).png
+-rw-rw-r--     1 root root     56695 May 22 21:19 Dr_Luis.png
+-rw-rw-r--     1 root root     55645 May 22 21:19 Dr_Marcos (1).png
+-rw-rw-r--     1 root root     55645 May 22 21:19 Dr_Marcos.png
+-rw-rw-r--     1 root root     15010 May 22 21:19 IMG-20250520-WA0055 (1).jpg
+-rw-rw-r--     1 root root     15010 May 22 21:19 IMG-20250520-WA0055.jpg
+-rw-rw-r--     1 root root     67995 May 22 21:19 Logo_MRVG.svg
+-rw-rw-r--     1 root root     10084 May 22 21:19 Luis.jpeg
+-rw-rw-r--     1 root root    135452 May 22 21:19 WhatsApp Image 2025-05-13 at 16.35.35.jpeg
+-rw-rw-r--     1 root root     36420 May 22 21:19 leonardo.jpeg
+-rw-rw-r--     1 root root    694237 May 22 21:19 logoMRVG.svg
+-rw-r--r--     1 root root    262272 May 23 07:20 logoSite.svg
+-rw-rw-r--     1 root root      6011 May 22 21:19 marcos.jpeg
+$ cat "/data/chats/eayp7/workspace/uploads/Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg" | head -20
+
+cat: '/data/chats/eayp7/workspace/uploads/Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg': No such file or directory
+$ find /data/chats/eayp7/workspace/uploads -type f -name "*MRVG*" -ls
+
+164511014    305 -rw-r--r--   1 root     root       312000 May 23 07:28 /data/chats/eayp7/workspace/uploads/Carta\314\203o_90x50mm_PROVA_20\ 05_13h23_LT_[MRVG\ Advogados].pdf.svg
+160850657     67 -rw-rw-r--   1 root     root        67995 May 22 21:19 /data/chats/eayp7/workspace/uploads/Logo_MRVG.svg
+160850661    678 -rw-rw-r--   1 root     root       694237 May 22 21:19 /data/chats/eayp7/workspace/uploads/logoMRVG.svg
+$ cp '/data/chats/eayp7/workspace/uploads/Carta\314\203o_90x50mm_PROVA_20\ 05_13h23_LT_[MRVG\ Advogados].pdf.svg' /data/chats/eayp7/workspace/react_template/public/assets/images/anniversary_logo.svg && ls -la /data/chats/eayp7/workspace/react_template/public/assets/images/
+
+cp: cannot stat '/data/chats/eayp7/workspace/uploads/Carta\314\203o_90x50mm_PROVA_20\ 05_13h23_LT_[MRVG\ Advogados].pdf.svg': No such file or directory
+$ cd /data/chats/eayp7/workspace/uploads && ls -la | grep -i mrvg
+
+-rw-r--r--     1 root root    312000 May 23 07:28 Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg
+-rw-rw-r--     1 root root     67995 May 22 21:19 Logo_MRVG.svg
+-rw-rw-r--     1 root root    694237 May 22 21:19 logoMRVG.svg
+$ cd /data/chats/eayp7/workspace/uploads && cp "Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg" /data/chats/eayp7/workspace/react_template/public/assets/images/anniversary_logo.svg && echo 'File copied successfully'
+
+cp: cannot stat 'Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg': No such file or directory
+$ cd /data/chats/eayp7/workspace/uploads && find . -name "*MRVG*" -exec ls -l {} \; && find . -name "*MRVG*" -exec cp -v {} /data/chats/eayp7/workspace/react_template/public/assets/images/anniversary_logo.svg \; -quit
+
+-rw-r--r-- 1 root root 312000 May 23 07:28 ./Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg
+-rw-rw-r-- 1 root root 67995 May 22 21:19 ./Logo_MRVG.svg
+-rw-rw-r-- 1 root root 694237 May 22 21:19 ./logoMRVG.svg
+'./Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg' -> '/data/chats/eayp7/workspace/react_template/public/assets/images/anniversary_logo.svg'
+$ cd /data/chats/eayp7/workspace/react_template && ls -la src/components/
+
+total 223
+drwxrwxr-x 13 root root  69632 May 22 21:19 .
+drwxrwxr-x 19 root root 102400 May 22 21:19 ..
+-rw-rw-r--  1 root root   5928 May 22 21:19 About.jsx
+-rw-rw-r--  1 root root   1511 May 23 06:12 AnniversaryBanner.jsx
+-rw-rw-r--  1 root root   1786 May 23 06:12 AnniversaryLogo.jsx
+-rw-rw-r--  1 root root   3913 May 22 21:19 Blog.jsx
+-rw-rw-r--  1 root root   7723 May 22 21:19 ChatBot.jsx
+-rw-rw-r--  1 root root  11923 May 22 21:19 Contact.jsx
+-rw-rw-r--  1 root root   6728 May 23 06:00 Footer.jsx
+-rw-rw-r--  1 root root   3497 May 22 21:19 Header.jsx
+-rw-rw-r--  1 root root   2258 May 23 06:02 Hero.jsx
+-rw-rw-r--  1 root root   3671 May 22 21:19 Services.jsx
+-rw-rw-r--  1 root root   3718 May 22 21:19 Team.jsx
+$ cd /data/chats/eayp7/workspace/react_template && pnpm run lint
+
+
+> react-template@0.0.0 lint /data/chats/eayp7/workspace/react_template
+> eslint ./src --quiet
+

@@ -1,0 +1,8 @@
+$ find /data/chats/eayp7 -name "*.svg"
+/data/chats/eayp7/workspace/react_template/public/assets/images/logoMRVG.svg
+/data/chats/eayp7/workspace/react_template/public/assets/images/logos/Logo_MRVG.svg
+/data/chats/eayp7/workspace/react_template/public/assets/images/newLogo.svg
+/data/chats/eayp7/workspace/uploads/Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg
+/data/chats/eayp7/workspace/uploads/Logo_MRVG.svg
+/data/chats/eayp7/workspace/uploads/logoMRVG.svg
+/data/chats/eayp7/workspace/uploads/logoSite.svg

@@ -1,0 +1,58 @@
+$ ls -la /data/chats/eayp7/workspace/uploads/
+total 337777
+drwxrwxr-x    33 root root  25247744 May 23 18:27 .
+drwxr-xr-x 20212 root root 295444480 May 23 18:28 ..
+-rw-rw-r--     1 root root   2498029 May 22 21:19 Captura de Tela 2025-05-22 às 21.24.25.png
+-rw-rw-r--     1 root root    955039 May 22 21:19 Captura de Tela 2025-05-22 às 21.27.42.png
+-rw-rw-r--     1 root root   1000515 May 22 21:19 Captura de Tela 2025-05-22 às 21.39.51.png
+-rw-rw-r--     1 root root   3271093 May 22 21:19 Captura de Tela 2025-05-22 às 22.20.56.png
+-rw-rw-r--     1 root root   2034382 May 22 21:19 Captura de Tela 2025-05-22 às 22.21.08.png
+-rw-rw-r--     1 root root   4750223 May 22 21:19 Captura de Tela 2025-05-23 às 00.18.07.png
+-rw-r--r--     1 root root   3279050 May 23 17:55 Captura de Tela 2025-05-23 às 21.54.49.png
+-rw-r--r--     1 root root   3335233 May 23 18:22 Captura de Tela 2025-05-23 às 22.21.40.png
+-rw-r--r--     1 root root   1061294 May 23 18:27 Captura de Tela 2025-05-23 às 22.27.11.png
+-rw-r--r--     1 root root    312000 May 23 07:28 Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg
+-rw-rw-r--     1 root root     49507 May 22 21:19 Dr_Leonardo (1).png
+-rw-rw-r--     1 root root     49507 May 22 21:19 Dr_Leonardo.png
+-rw-rw-r--     1 root root     56695 May 22 21:19 Dr_Luis (1).png
+-rw-rw-r--     1 root root     56695 May 22 21:19 Dr_Luis.png
+-rw-rw-r--     1 root root     55645 May 22 21:19 Dr_Marcos (1).png
+-rw-rw-r--     1 root root     55645 May 22 21:19 Dr_Marcos.png
+-rw-rw-r--     1 root root     15010 May 22 21:19 IMG-20250520-WA0055 (1).jpg
+-rw-rw-r--     1 root root     15010 May 22 21:19 IMG-20250520-WA0055.jpg
+-rw-rw-r--     1 root root     67995 May 22 21:19 Logo_MRVG.svg
+-rw-r--r--     1 root root    311165 May 23 08:24 Logo_transp_15anos (1).svg
+-rw-r--r--     1 root root    311165 May 23 12:22 Logo_transp_15anos (2).svg
+-rw-r--r--     1 root root    311165 May 23 08:17 Logo_transp_15anos.svg
+-rw-rw-r--     1 root root     10084 May 22 21:19 Luis.jpeg
+-rw-rw-r--     1 root root    135452 May 22 21:19 WhatsApp Image 2025-05-13 at 16.35.35.jpeg
+-rw-rw-r--     1 root root     36420 May 22 21:19 leonardo.jpeg
+-rw-rw-r--     1 root root    694237 May 22 21:19 logoMRVG.svg
+-rw-r--r--     1 root root    262272 May 23 07:20 logoSite.svg
+-rw-r--r--     1 root root     91904 May 23 12:25 logo_15_sombra.png
+-rw-r--r--     1 root root     43436 May 23 18:12 logo_cinza.png
+-rw-r--r--     1 root root     52401 May 23 12:31 logo_original.png
+-rw-rw-r--     1 root root      6011 May 22 21:19 marcos.jpeg
+$ cd /data/chats/eayp7/workspace/react_template && npm list react-icons || pnpm add react-icons
+
+npm notice 
+npm notice New major version of npm available! 10.2.4 -> 11.4.1
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v11.4.1>
+npm notice Run `npm install -g npm@11.4.1` to update!
+npm notice 
+react-template@0.0.0 /data/chats/eayp7/workspace/react_template
+└── (empty)
+
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 18, reused 17, downloaded 0, added 0
+Progress: resolved 312, reused 310, downloaded 0, added 0
+Packages: +1
++
+Progress: resolved 440, reused 398, downloaded 0, added 0
+Progress: resolved 440, reused 398, downloaded 1, added 0
+Progress: resolved 440, reused 398, downloaded 1, added 1, done
+
+dependencies:
++ react-icons 5.5.0
+
+Done in 6.1s

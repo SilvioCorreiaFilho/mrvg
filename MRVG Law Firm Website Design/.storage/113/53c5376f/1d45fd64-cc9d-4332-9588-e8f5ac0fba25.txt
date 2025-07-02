@@ -1,0 +1,78 @@
+$ cp ../uploads/logo_cinza.png public/assets/images/logo_cinza.png
+$ cd /data/chats/eayp7/workspace/react_template && cp ../uploads/logo_cinza.png public/assets/images/logo_cinza.png
+
+$ ls -la src/
+
+total 164227
+drwxrwxr-x    19 root root    102400 May 22 21:19 .
+drwxrwxr-x 19550 root root 167976960 May 23 18:10 ..
+-rw-rw-r--     1 root root      1719 May 23 07:33 App.jsx
+drwxrwxr-x    13 root root     69632 May 22 21:19 components
+-rw-rw-r--     1 root root       415 May 22 21:19 index.css
+-rw-rw-r--     1 root root       229 May 22 21:19 main.jsx
+drwxrwxr-x     3 root root     16384 May 22 21:19 utils
+$ ls -la public/assets/images/
+
+total 10481
+drwxrwxr-x 35 root root 3575808 May 23 18:13 .
+drwxrwxr-x 36 root root 3620864 May 22 21:19 ..
+-rw-rw-r--  1 root root       0 May 22 21:19 .gitkeep
+-rw-rw-r--  1 root root   49507 May 22 21:19 Dr_Leonardo.png
+-rw-rw-r--  1 root root   56695 May 22 21:19 Dr_Luis.png
+-rw-rw-r--  1 root root   55645 May 22 21:19 Dr_Marcos.png
+-rw-r--r--  1 root root   52401 May 23 12:32 anniversary_logo.png
+-rw-r--r--  1 root root  312000 May 23 07:29 anniversary_logo.svg
+-rw-rw-r--  1 root root       0 May 22 21:19 blog-1.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 blog-2.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 blog-3.jpg
+-rw-rw-r--  1 root root  135452 May 22 21:19 hero-bg.jpg
+-rw-rw-r--  1 root root  135452 May 22 21:19 hero-new.jpeg
+-rw-rw-r--  1 root root      62 May 22 21:19 image_placeholder.txt
+-rw-rw-r--  1 root root       0 May 22 21:19 labor-law.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 legal-tax-law.jpg
+-rw-rw-r--  1 root root  694237 May 22 21:19 logoMRVG.svg
+-rw-r--r--  1 root root   43436 May 23 18:13 logo_cinza.png
+drwxrwxr-x  3 root root   73728 May 22 21:19 logos
+-rw-rw-r--  1 root root  694237 May 22 21:19 newLogo.svg
+-rw-rw-r--  1 root root       0 May 22 21:19 office-img.jpg
+-rw-rw-r--  1 root root 1000515 May 22 21:19 screenshot.png
+-rw-rw-r--  1 root root       0 May 22 21:19 supreme-court.jpg
+drwxrwxr-x  8 root root  229376 May 22 21:19 team
+-rw-rw-r--  1 root root       0 May 22 21:19 team-1.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 team-2.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 team-3.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 team-4.jpg
+$ pnpm run dev
+
+
+> react-template@0.0.0 dev /data/chats/eayp7/workspace/react_template
+> vite
+
+Port 5173 is in use, trying another one...
+
+  VITE v5.4.19  ready in 290 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+6:18:37 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:22:51 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:23:06 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:23:44 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:23:58 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:24:15 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:24:32 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:24:38 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:25:09 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:25:34 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:25:42 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:29:24 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:30:08 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:30:52 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:31:00 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:35:36 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:37:19 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:37:28 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:37:38 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:37:47 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:37:57 PM [vite] hmr update /src/components/Header.jsx, /src/index.css
+6:38:10 PM [vite] hmr update /src/components/Header.jsx, /src/index.css

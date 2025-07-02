@@ -1,0 +1,1 @@
+{"tasks": [{"task_id": "1", "dependent_task_ids": [], "instruction": "Replace the current commemorative image with the correct image from the body ('a primeira do body') instead of the WhatsApp image", "task_type": "general", "code": "", "result": "", "is_success": false, "is_finished": false, "assignee": "Alex", "start_at": 1748306477.8155508}], "current_task_id": "1"}

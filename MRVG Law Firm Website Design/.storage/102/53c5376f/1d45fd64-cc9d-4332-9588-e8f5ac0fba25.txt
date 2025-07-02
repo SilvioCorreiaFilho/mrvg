@@ -1,0 +1,3 @@
+$ cp ../uploads/logo_cinza.png public/assets/images/logo_cinza.png
+$ cd /data/chats/eayp7/workspace/react_template && cp ../uploads/logo_cinza.png public/assets/images/logo_cinza.png
+

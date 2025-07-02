@@ -1,0 +1,2 @@
+$ file /data/chats/eayp7/workspace/uploads/Logo_transp_15anos.svg
+/data/chats/eayp7/workspace/uploads/Logo_transp_15anos.svg: SVG Scalable Vector Graphics image

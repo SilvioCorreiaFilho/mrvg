@@ -1,0 +1,13 @@
+$ cp ../uploads/logo_cinza.png public/assets/images/logo_cinza.png
+$ cd /data/chats/eayp7/workspace/react_template && cp ../uploads/logo_cinza.png public/assets/images/logo_cinza.png
+
+$ ls -la src/
+
+total 164227
+drwxrwxr-x    19 root root    102400 May 22 21:19 .
+drwxrwxr-x 19550 root root 167976960 May 23 18:10 ..
+-rw-rw-r--     1 root root      1719 May 23 07:33 App.jsx
+drwxrwxr-x    13 root root     69632 May 22 21:19 components
+-rw-rw-r--     1 root root       415 May 22 21:19 index.css
+-rw-rw-r--     1 root root       229 May 22 21:19 main.jsx
+drwxrwxr-x     3 root root     16384 May 22 21:19 utils

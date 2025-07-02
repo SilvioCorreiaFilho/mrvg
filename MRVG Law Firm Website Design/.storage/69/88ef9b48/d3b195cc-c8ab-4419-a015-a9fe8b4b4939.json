@@ -1,0 +1,1 @@
+{"tasks": [{"task_id": "1", "dependent_task_ids": [], "instruction": "Update the anniversary logo with the new file provided by the user, maintaining the same proportions as the previous logo.", "task_type": "general", "code": "", "result": "", "is_success": false, "is_finished": false, "assignee": "Alex", "start_at": 1748010520.717261}], "current_task_id": "1"}

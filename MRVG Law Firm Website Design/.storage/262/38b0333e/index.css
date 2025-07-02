@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #e7e7e7;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  transition: all 0.3s;
+  background-color: rgba(106, 115, 125, 0.2);
+  &:hover {
+    background-color: rgba(106, 115, 125, 0.27);
+  }
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+/* Header transition effects */
+.header-transition-in {
+  animation: glassEffect 0.5s ease-in-out forwards;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.header-transition-out {
+  animation: unglassEffect 0.5s ease-in-out forwards;
+}
+
+@keyframes glassEffect {
+  from {
+    backdrop-filter: blur(0px);
+    background-color: transparent;
+  }
+  to {
+    backdrop-filter: blur(12px);
+    background-color: rgba(17, 24, 39, 0.7);
+  }
+}
+
+@keyframes unglassEffect {
+  from {
+    backdrop-filter: blur(12px);
+    background-color: rgba(17, 24, 39, 0.7);
+  }
+  to {
+    backdrop-filter: blur(0px);
+    background-color: transparent;
+  }
+}

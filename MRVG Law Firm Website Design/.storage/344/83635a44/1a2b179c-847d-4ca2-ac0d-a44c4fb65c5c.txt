@@ -1,0 +1,39 @@
+$ ls -la public/assets/images/
+total 25770
+drwxrwxr-x 42 root root 8822784 May 26 18:39 .
+drwxrwxr-x 43 root root 8826880 May 22 21:19 ..
+-rw-rw-r--  1 root root       0 May 22 21:19 .gitkeep
+-rw-r--r--  1 root root   44290 May 26 17:59 Anos.png
+-rw-r--r--  1 root root 1617071 May 26 18:39 Arte15anos.png
+-rw-rw-r--  1 root root   49507 May 22 21:19 Dr_Leonardo.png
+-rw-rw-r--  1 root root   56695 May 22 21:19 Dr_Luis.png
+-rw-rw-r--  1 root root   55645 May 22 21:19 Dr_Marcos.png
+-rw-r--r--  1 root root   44290 May 26 16:11 anniversary_logo.png
+-rw-r--r--  1 root root  312000 May 23 07:29 anniversary_logo.svg
+-rw-r--r--  1 root root 1617071 May 26 16:47 arte15anos.png
+-rw-rw-r--  1 root root       0 May 22 21:19 blog-1.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 blog-2.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 blog-3.jpg
+-rw-rw-r--  1 root root  135452 May 22 21:19 hero-bg.jpg
+-rw-rw-r--  1 root root  135452 May 22 21:19 hero-new.jpeg
+-rw-rw-r--  1 root root      62 May 22 21:19 image_placeholder.txt
+-rw-rw-r--  1 root root       0 May 22 21:19 labor-law.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 legal-tax-law.jpg
+-rw-rw-r--  1 root root  694237 May 22 21:19 logoMRVG.svg
+-rw-r--r--  1 root root   91904 May 26 18:36 logo_15_sombra.png
+-rw-r--r--  1 root root   43436 May 23 18:13 logo_cinza.png
+-rw-r--r--  1 root root   52401 May 23 18:18 logo_white.png
+drwxrwxr-x  3 root root   73728 May 22 21:19 logos
+-rw-rw-r--  1 root root  694237 May 22 21:19 newLogo.svg
+-rw-r--r--  1 root root   80105 May 26 17:43 new_anniversary_art.jpeg
+-rw-r--r--  1 root root 1617071 May 26 16:37 new_anniversary_art.png
+-rw-rw-r--  1 root root   89345 May 26 18:21 office-img.jpg
+-rw-rw-r--  1 root root 1000515 May 22 21:19 screenshot.png
+-rw-rw-r--  1 root root       0 May 22 21:19 supreme-court.jpg
+drwxrwxr-x  8 root root  229376 May 22 21:19 team
+-rw-rw-r--  1 root root       0 May 22 21:19 team-1.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 team-2.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 team-3.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 team-4.jpg
+$ cp /data/chats/eayp7/workspace/uploads/artigoTrib.png public/assets/images/legal-tax-law.jpg
+

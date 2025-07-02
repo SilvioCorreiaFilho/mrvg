@@ -1,0 +1,390 @@
+$ ls -la /data/chats/eayp7/workspace/uploads/
+total 486451
+drwxrwxr-x    38 root root  29437952 May 26 17:40 .
+drwxr-xr-x 20698 root root 439312384 May 26 17:58 ..
+-rw-r--r--     1 root root     44290 May 26 16:09 Anos.png
+-rw-r--r--     1 root root   1617071 May 26 16:35 Arte15anos.png
+-rw-rw-r--     1 root root   2498029 May 22 21:19 Captura de Tela 2025-05-22 às 21.24.25.png
+-rw-rw-r--     1 root root    955039 May 22 21:19 Captura de Tela 2025-05-22 às 21.27.42.png
+-rw-rw-r--     1 root root   1000515 May 22 21:19 Captura de Tela 2025-05-22 às 21.39.51.png
+-rw-rw-r--     1 root root   3271093 May 22 21:19 Captura de Tela 2025-05-22 às 22.20.56.png
+-rw-rw-r--     1 root root   2034382 May 22 21:19 Captura de Tela 2025-05-22 às 22.21.08.png
+-rw-rw-r--     1 root root   4750223 May 22 21:19 Captura de Tela 2025-05-23 às 00.18.07.png
+-rw-r--r--     1 root root   3279050 May 23 17:55 Captura de Tela 2025-05-23 às 21.54.49.png
+-rw-r--r--     1 root root   3335233 May 23 18:22 Captura de Tela 2025-05-23 às 22.21.40.png
+-rw-r--r--     1 root root   1061294 May 23 18:27 Captura de Tela 2025-05-23 às 22.27.11.png
+-rw-r--r--     1 root root   1386885 May 26 16:44 Captura de Tela 2025-05-26 às 20.44.17.png
+-rw-r--r--     1 root root   1055026 May 26 17:39 Captura de Tela 2025-05-26 às 21.39.45.png
+-rw-r--r--     1 root root    312000 May 23 07:28 Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg
+-rw-rw-r--     1 root root     49507 May 22 21:19 Dr_Leonardo (1).png
+-rw-rw-r--     1 root root     49507 May 22 21:19 Dr_Leonardo.png
+-rw-rw-r--     1 root root     56695 May 22 21:19 Dr_Luis (1).png
+-rw-rw-r--     1 root root     56695 May 22 21:19 Dr_Luis.png
+-rw-rw-r--     1 root root     55645 May 22 21:19 Dr_Marcos (1).png
+-rw-rw-r--     1 root root     55645 May 22 21:19 Dr_Marcos.png
+-rw-rw-r--     1 root root     15010 May 22 21:19 IMG-20250520-WA0055 (1).jpg
+-rw-rw-r--     1 root root     15010 May 22 21:19 IMG-20250520-WA0055.jpg
+-rw-rw-r--     1 root root     67995 May 22 21:19 Logo_MRVG.svg
+-rw-r--r--     1 root root    311165 May 23 08:24 Logo_transp_15anos (1).svg
+-rw-r--r--     1 root root    311165 May 23 12:22 Logo_transp_15anos (2).svg
+-rw-r--r--     1 root root    311165 May 23 08:17 Logo_transp_15anos.svg
+-rw-rw-r--     1 root root     10084 May 22 21:19 Luis.jpeg
+-rw-rw-r--     1 root root    135452 May 22 21:19 WhatsApp Image 2025-05-13 at 16.35.35.jpeg
+-rw-r--r--     1 root root     80105 May 26 17:40 WhatsApp Image 2025-05-26 at 21.34.19 (1).jpeg
+-rw-rw-r--     1 root root     36420 May 22 21:19 leonardo.jpeg
+-rw-rw-r--     1 root root    694237 May 22 21:19 logoMRVG.svg
+-rw-r--r--     1 root root    262272 May 23 07:20 logoSite.svg
+-rw-r--r--     1 root root     91904 May 23 12:25 logo_15_sombra.png
+-rw-r--r--     1 root root     43436 May 23 18:12 logo_cinza.png
+-rw-r--r--     1 root root     52401 May 23 12:31 logo_original.png
+-rw-rw-r--     1 root root      6011 May 22 21:19 marcos.jpeg
+$ ls -la /data/chats/eayp7/workspace/uploads/ | grep -i anos
+
+-rw-r--r--     1 root root     44290 May 26 16:09 Anos.png
+-rw-r--r--     1 root root   1617071 May 26 16:35 Arte15anos.png
+-rw-r--r--     1 root root    311165 May 23 08:24 Logo_transp_15anos (1).svg
+-rw-r--r--     1 root root    311165 May 23 12:22 Logo_transp_15anos (2).svg
+-rw-r--r--     1 root root    311165 May 23 08:17 Logo_transp_15anos.svg
+$ mkdir -p /tmp/images && cp /data/chats/eayp7/workspace/uploads/Anos.png /tmp/images/ && cp /data/chats/eayp7/workspace/uploads/Arte15anos.png /tmp/images/ && ls -la /tmp/images/
+
+total 1624
+drwxr-xr-x 2 root root      44 May 26 17:59 .
+drwxrwxrwt 1 root root      85 May 26 17:59 ..
+-rw-r--r-- 1 root root   44290 May 26 17:59 Anos.png
+-rw-r--r-- 1 root root 1617071 May 26 17:59 Arte15anos.png
+$ cp /data/chats/eayp7/workspace/uploads/Anos.png /data/chats/eayp7/workspace/react_template/public/assets/images/
+
+$ cd /data/chats/eayp7/workspace/react_template && pnpm run lint
+
+
+> react-template@0.0.0 lint /data/chats/eayp7/workspace/react_template
+> eslint ./src --quiet
+
+$ ls -la /data/chats/eayp7/workspace/uploads/
+
+total 493345
+drwxrwxr-x    39 root root  30470144 May 26 18:02 .
+drwxr-xr-x 20714 root root 444309504 May 26 18:03 ..
+-rw-r--r--     1 root root     44290 May 26 16:09 Anos.png
+-rw-r--r--     1 root root   1617071 May 26 16:35 Arte15anos.png
+-rw-rw-r--     1 root root   2498029 May 22 21:19 Captura de Tela 2025-05-22 às 21.24.25.png
+-rw-rw-r--     1 root root    955039 May 22 21:19 Captura de Tela 2025-05-22 às 21.27.42.png
+-rw-rw-r--     1 root root   1000515 May 22 21:19 Captura de Tela 2025-05-22 às 21.39.51.png
+-rw-rw-r--     1 root root   3271093 May 22 21:19 Captura de Tela 2025-05-22 às 22.20.56.png
+-rw-rw-r--     1 root root   2034382 May 22 21:19 Captura de Tela 2025-05-22 às 22.21.08.png
+-rw-rw-r--     1 root root   4750223 May 22 21:19 Captura de Tela 2025-05-23 às 00.18.07.png
+-rw-r--r--     1 root root   3279050 May 23 17:55 Captura de Tela 2025-05-23 às 21.54.49.png
+-rw-r--r--     1 root root   3335233 May 23 18:22 Captura de Tela 2025-05-23 às 22.21.40.png
+-rw-r--r--     1 root root   1061294 May 23 18:27 Captura de Tela 2025-05-23 às 22.27.11.png
+-rw-r--r--     1 root root   1386885 May 26 16:44 Captura de Tela 2025-05-26 às 20.44.17.png
+-rw-r--r--     1 root root   1055026 May 26 17:39 Captura de Tela 2025-05-26 às 21.39.45.png
+-rw-r--r--     1 root root   1030081 May 26 18:02 Captura de Tela 2025-05-26 às 22.01.41.png
+-rw-r--r--     1 root root    312000 May 23 07:28 Cartão_90x50mm_PROVA_20 05_13h23_LT_[MRVG Advogados].pdf.svg
+-rw-rw-r--     1 root root     49507 May 22 21:19 Dr_Leonardo (1).png
+-rw-rw-r--     1 root root     49507 May 22 21:19 Dr_Leonardo.png
+-rw-rw-r--     1 root root     56695 May 22 21:19 Dr_Luis (1).png
+-rw-rw-r--     1 root root     56695 May 22 21:19 Dr_Luis.png
+-rw-rw-r--     1 root root     55645 May 22 21:19 Dr_Marcos (1).png
+-rw-rw-r--     1 root root     55645 May 22 21:19 Dr_Marcos.png
+-rw-rw-r--     1 root root     15010 May 22 21:19 IMG-20250520-WA0055 (1).jpg
+-rw-rw-r--     1 root root     15010 May 22 21:19 IMG-20250520-WA0055.jpg
+-rw-rw-r--     1 root root     67995 May 22 21:19 Logo_MRVG.svg
+-rw-r--r--     1 root root    311165 May 23 08:24 Logo_transp_15anos (1).svg
+-rw-r--r--     1 root root    311165 May 23 12:22 Logo_transp_15anos (2).svg
+-rw-r--r--     1 root root    311165 May 23 08:17 Logo_transp_15anos.svg
+-rw-rw-r--     1 root root     10084 May 22 21:19 Luis.jpeg
+-rw-rw-r--     1 root root    135452 May 22 21:19 WhatsApp Image 2025-05-13 at 16.35.35.jpeg
+-rw-r--r--     1 root root     80105 May 26 17:40 WhatsApp Image 2025-05-26 at 21.34.19 (1).jpeg
+-rw-rw-r--     1 root root     36420 May 22 21:19 leonardo.jpeg
+-rw-rw-r--     1 root root    694237 May 22 21:19 logoMRVG.svg
+-rw-r--r--     1 root root    262272 May 23 07:20 logoSite.svg
+-rw-r--r--     1 root root     91904 May 23 12:25 logo_15_sombra.png
+-rw-r--r--     1 root root     43436 May 23 18:12 logo_cinza.png
+-rw-r--r--     1 root root     52401 May 23 12:31 logo_original.png
+-rw-rw-r--     1 root root      6011 May 22 21:19 marcos.jpeg
+$ cd /data/chats/eayp7/workspace && cp uploads/"Captura de Tela 2025-05-26 às 22.01.41.png" /tmp/ && ls -la /tmp/"Captura de Tela 2025-05-26 às 22.01.41.png"
+
+cp: cannot stat 'uploads/Captura de Tela 2025-05-26 às 22.01.41.png': No such file or directory
+$ find /data/chats/eayp7/workspace/uploads/ -type f -name "*Captura*" | xargs ls -l
+
+ls: cannot access '/data/chats/eayp7/workspace/uploads/Captura': No such file or directory
+ls: cannot access 'de': No such file or directory
+ls: cannot access 'Tela': No such file or directory
+ls: cannot access '2025-05-22': No such file or directory
+ls: cannot access 'às': No such file or directory
+ls: cannot access '21.24.25.png': No such file or directory
+ls: cannot access '/data/chats/eayp7/workspace/uploads/Captura': No such file or directory
+ls: cannot access 'de': No such file or directory
+ls: cannot access 'Tela': No such file or directory
+ls: cannot access '2025-05-22': No such file or directory
+ls: cannot access 'às': No such file or directory
+ls: cannot access '21.27.42.png': No such file or directory
+ls: cannot access '/data/chats/eayp7/workspace/uploads/Captura': No such file or directory
+ls: cannot access 'de': No such file or directory
+ls: cannot access 'Tela': No such file or directory
+ls: cannot access '2025-05-22': No such file or directory
+ls: cannot access 'às': No such file or directory
+ls: cannot access '21.39.51.png': No such file or directory
+ls: cannot access '/data/chats/eayp7/workspace/uploads/Captura': No such file or directory
+ls: cannot access 'de': No such file or directory
+ls: cannot access 'Tela': No such file or directory
+ls: cannot access '2025-05-22': No such file or directory
+ls: cannot access 'às': No such file or directory
+ls: cannot access '22.20.56.png': No such file or directory
+ls: cannot access '/data/chats/eayp7/workspace/uploads/Captura': No such file or directory
+ls: cannot access 'de': No such file or directory
+ls: cannot access 'Tela': No such file or directory
+ls: cannot access '2025-05-22': No such file or directory
+ls: cannot access 'às': No such file or directory
+ls: cannot access '22.21.08.png': No such file or directory
+ls: cannot access '/data/chats/eayp7/workspace/uploads/Captura': No such file or directory
+ls: cannot access 'de': No such file or directory
+ls: cannot access 'Tela': No such file or directory
+ls: cannot access '2025-05-23': No such file or directory
+ls: cannot access 'às': No such file or directory
+ls: cannot access '00.18.07.png': No such file or directory
+ls: cannot access '/data/chats/eayp7/workspace/uploads/Captura': No such file or directory
+ls: cannot access 'de': No such file or directory
+ls: cannot access 'Tela': No such file or directory
+ls: cannot access '2025-05-23': No such file or directory
+ls: cannot access 'às': No such file or directory
+ls: cannot access '21.54.49.png': No such file or directory
+ls: cannot access '/data/chats/eayp7/workspace/uploads/Captura': No such file or directory
+ls: cannot access 'de': No such file or directory
+ls: cannot access 'Tela': No such file or directory
+ls: cannot access '2025-05-23': No such file or directory
+ls: cannot access 'às': No such file or directory
+ls: cannot access '22.21.40.png': No such file or directory
+ls: cannot access '/data/chats/eayp7/workspace/uploads/Captura': No such file or directory
+ls: cannot access 'de': No such file or directory
+ls: cannot access 'Tela': No such file or directory
+ls: cannot access '2025-05-23': No such file or directory
+ls: cannot access 'às': No such file or directory
+ls: cannot access '22.27.11.png': No such file or directory
+ls: cannot access '/data/chats/eayp7/workspace/uploads/Captura': No such file or directory
+ls: cannot access 'de': No such file or directory
+ls: cannot access 'Tela': No such file or directory
+ls: cannot access '2025-05-26': No such file or directory
+ls: cannot access 'às': No such file or directory
+ls: cannot access '20.44.17.png': No such file or directory
+ls: cannot access '/data/chats/eayp7/workspace/uploads/Captura': No such file or directory
+ls: cannot access 'de': No such file or directory
+ls: cannot access 'Tela': No such file or directory
+ls: cannot access '2025-05-26': No such file or directory
+ls: cannot access 'às': No such file or directory
+ls: cannot access '21.39.45.png': No such file or directory
+ls: cannot access '/data/chats/eayp7/workspace/uploads/Captura': No such file or directory
+ls: cannot access 'de': No such file or directory
+ls: cannot access 'Tela': No such file or directory
+ls: cannot access '2025-05-26': No such file or directory
+ls: cannot access 'às': No such file or directory
+ls: cannot access '22.01.41.png': No such file or directory
+$ ls -la /data/chats/eayp7/workspace/uploads/ | grep Captura
+
+-rw-rw-r--     1 root root   2498029 May 22 21:19 Captura de Tela 2025-05-22 às 21.24.25.png
+-rw-rw-r--     1 root root    955039 May 22 21:19 Captura de Tela 2025-05-22 às 21.27.42.png
+-rw-rw-r--     1 root root   1000515 May 22 21:19 Captura de Tela 2025-05-22 às 21.39.51.png
+-rw-rw-r--     1 root root   3271093 May 22 21:19 Captura de Tela 2025-05-22 às 22.20.56.png
+-rw-rw-r--     1 root root   2034382 May 22 21:19 Captura de Tela 2025-05-22 às 22.21.08.png
+-rw-rw-r--     1 root root   4750223 May 22 21:19 Captura de Tela 2025-05-23 às 00.18.07.png
+-rw-r--r--     1 root root   3279050 May 23 17:55 Captura de Tela 2025-05-23 às 21.54.49.png
+-rw-r--r--     1 root root   3335233 May 23 18:22 Captura de Tela 2025-05-23 às 22.21.40.png
+-rw-r--r--     1 root root   1061294 May 23 18:27 Captura de Tela 2025-05-23 às 22.27.11.png
+-rw-r--r--     1 root root   1386885 May 26 16:44 Captura de Tela 2025-05-26 às 20.44.17.png
+-rw-r--r--     1 root root   1055026 May 26 17:39 Captura de Tela 2025-05-26 às 21.39.45.png
+-rw-r--r--     1 root root   1030081 May 26 18:02 Captura de Tela 2025-05-26 às 22.01.41.png
+$ cp "/data/chats/eayp7/workspace/uploads/Captura de Tela 2025-05-26 às 22.01.41.png" /tmp/screenshot.png && cd /data/chats/eayp7/workspace/react_template && ls -la src/components/
+
+cp: cannot stat '/data/chats/eayp7/workspace/uploads/Captura de Tela 2025-05-26 às 22.01.41.png': No such file or directory
+$ pwd && find /data/chats/eayp7/workspace -name "*Captura*" | grep "22.01.41"
+
+/data/chats/eayp7/workspace
+/data/chats/eayp7/workspace/uploads/Captura de Tela 2025-05-26 às 22.01.41.png
+$ cd /data/chats/eayp7/workspace && ls -la react_template/src/components && cp "uploads/Captura de Tela 2025-05-26 às 22.01.41.png" /tmp/screenshot.png
+
+total 277
+drwxrwxr-x 14 root root  90112 May 26 16:11 .
+drwxrwxr-x 20 root root 122880 May 22 21:19 ..
+-rw-rw-r--  1 root root   5928 May 22 21:19 About.jsx
+-rw-rw-r--  1 root root   1001 May 23 17:57 AnniversaryBanner.jsx
+-rw-rw-r--  1 root root    703 May 23 17:57 AnniversaryLogo.jsx
+-rw-rw-r--  1 root root   3913 May 22 21:19 Blog.jsx
+-rw-rw-r--  1 root root   7723 May 22 21:19 ChatBot.jsx
+-rw-r--r--  1 root root  10044 May 26 17:59 Commemorative.jsx
+-rw-rw-r--  1 root root  11923 May 22 21:19 Contact.jsx
+-rw-rw-r--  1 root root   6728 May 23 06:00 Footer.jsx
+-rw-rw-r--  1 root root   9052 May 23 18:38 Header.jsx
+-rw-rw-r--  1 root root   2143 May 23 07:32 Hero.jsx
+-rw-rw-r--  1 root root   3671 May 22 21:19 Services.jsx
+-rw-rw-r--  1 root root   3718 May 22 21:19 Team.jsx
+cp: cannot stat 'uploads/Captura de Tela 2025-05-26 às 22.01.41.png': No such file or directory
+$ cd /data/chats/eayp7/workspace && find react_template/src -name "*.css" && find react_template/public -name "*assets*" -type d
+
+react_template/src/index.css
+react_template/public/assets
+$ cd /data/chats/eayp7/workspace && ls -la react_template/public/assets && cat react_template/src/index.css
+
+total 20600
+drwxrwxr-x 41 root root 7028736 May 22 21:19 .
+drwxrwxr-x 44 root root 7041024 May 22 21:19 ..
+drwxrwxr-x 40 root root 7024640 May 26 17:59 images
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #e7e7e7;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  transition: all 0.3s;
+  background-color: rgba(106, 115, 125, 0.2);
+  &:hover {
+    background-color: rgba(106, 115, 125, 0.27);
+  }
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+/* Header transition effects */
+.header-transition-in {
+  animation: glassEffect 0.5s ease-in-out forwards;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.header-transition-out {
+  animation: unglassEffect 0.5s ease-in-out forwards;
+}
+
+@keyframes glassEffect {
+  from {
+    backdrop-filter: blur(0px);
+    background-color: transparent;
+  }
+  to {
+    backdrop-filter: blur(12px);
+    background-color: rgba(17, 24, 39, 0.7);
+  }
+}
+
+@keyframes unglassEffect {
+  from {
+    backdrop-filter: blur(12px);
+    background-color: rgba(17, 24, 39, 0.7);
+  }
+  to {
+    backdrop-filter: blur(0px);
+    background-color: transparent;
+  }
+}
+$ cd /data/chats/eayp7/workspace && ls -la react_template/public/assets/images && cat react_template/src/App.jsx
+
+total 20501
+drwxrwxr-x 40 root root 7024640 May 26 17:59 .
+drwxrwxr-x 41 root root 7028736 May 22 21:19 ..
+-rw-rw-r--  1 root root       0 May 22 21:19 .gitkeep
+-rw-r--r--  1 root root   44290 May 26 17:59 Anos.png
+-rw-rw-r--  1 root root   49507 May 22 21:19 Dr_Leonardo.png
+-rw-rw-r--  1 root root   56695 May 22 21:19 Dr_Luis.png
+-rw-rw-r--  1 root root   55645 May 22 21:19 Dr_Marcos.png
+-rw-r--r--  1 root root   44290 May 26 16:11 anniversary_logo.png
+-rw-r--r--  1 root root  312000 May 23 07:29 anniversary_logo.svg
+-rw-r--r--  1 root root 1617071 May 26 16:47 arte15anos.png
+-rw-rw-r--  1 root root       0 May 22 21:19 blog-1.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 blog-2.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 blog-3.jpg
+-rw-rw-r--  1 root root  135452 May 22 21:19 hero-bg.jpg
+-rw-rw-r--  1 root root  135452 May 22 21:19 hero-new.jpeg
+-rw-rw-r--  1 root root      62 May 22 21:19 image_placeholder.txt
+-rw-rw-r--  1 root root       0 May 22 21:19 labor-law.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 legal-tax-law.jpg
+-rw-rw-r--  1 root root  694237 May 22 21:19 logoMRVG.svg
+-rw-r--r--  1 root root   43436 May 23 18:13 logo_cinza.png
+-rw-r--r--  1 root root   52401 May 23 18:18 logo_white.png
+drwxrwxr-x  3 root root   73728 May 22 21:19 logos
+-rw-rw-r--  1 root root  694237 May 22 21:19 newLogo.svg
+-rw-r--r--  1 root root   80105 May 26 17:43 new_anniversary_art.jpeg
+-rw-r--r--  1 root root 1617071 May 26 16:37 new_anniversary_art.png
+-rw-rw-r--  1 root root       0 May 22 21:19 office-img.jpg
+-rw-rw-r--  1 root root 1000515 May 22 21:19 screenshot.png
+-rw-rw-r--  1 root root       0 May 22 21:19 supreme-court.jpg
+drwxrwxr-x  8 root root  229376 May 22 21:19 team
+-rw-rw-r--  1 root root       0 May 22 21:19 team-1.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 team-2.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 team-3.jpg
+-rw-rw-r--  1 root root       0 May 22 21:19 team-4.jpg
+import { useState, useEffect } from 'react';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About';
+import Services from './components/Services';
+import Team from './components/Team';
+import Blog from './components/Blog';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import ChatBot from './components/ChatBot';
+import Commemorative from './components/Commemorative';
+
+function App() {
+  const [showChatBot, setShowChatBot] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      setIsScrolled(scrollPosition > 100);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  return (
+    <div className="font-[Raleway] text-gray-800 bg-[#e7e7e7] min-h-screen">
+      <Header isScrolled={isScrolled} />
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <Commemorative />
+        <Team />
+        <Blog />
+        <Contact />
+      </main>
+      <Footer />
+      
+      {/* Chat Bot Button */}
+      <button
+        onClick={() => setShowChatBot(!showChatBot)}
+        className="fixed bottom-6 right-6 bg-gray-800 text-white p-4 rounded-full shadow-lg hover:bg-gray-700 transition-all z-50"
+        aria-label="Abrir assistente virtual"
+      >
+        {showChatBot ? (
+          <i className="fas fa-times text-xl"></i>
+        ) : (
+          <i className="fas fa-comment text-xl"></i>
+        )}
+      </button>
+      
+      {/* Chat Bot Component */}
+      {showChatBot && <ChatBot onClose={() => setShowChatBot(false)} />}
+    </div>
+  );
+}
+
+export default App;$ ls -la "/data/chats/eayp7/workspace/uploads/" | grep "Captura de Tela 2025-05-26 às 22.01.41"
+

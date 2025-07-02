@@ -1,0 +1,39 @@
+$ ls -la
+total 594175
+drwxrwxr-x 19566 root root 170803200 May 23 12:21 .
+drwxr-xr-x 20097 root root 266862592 May 23 12:32 ..
+-rw-rw-r--     1 root root       253 May 22 21:19 .gitignore
+-rw-rw-r--     1 root root      1185 May 22 21:19 README.md
+-rw-rw-r--     1 root root      1476 May 22 21:19 eslint.config.js
+-rw-rw-r--     1 root root      1054 May 22 21:19 index.html
+drwxr-xr-x 19501 root root 166998016 May 23 12:21 node_modules
+-rw-rw-r--     1 root root       957 May 22 21:19 package.json
+-rw-r--r--     1 root root    124312 May 22 21:21 pnpm-lock.yaml
+-rw-rw-r--     1 root root        80 May 22 21:19 postcss.config.js
+drwxrwxr-x    37 root root   3534848 May 22 21:19 public
+drwxrwxr-x    19 root root    102400 May 22 21:19 src
+-rw-rw-r--     1 root root       170 May 22 21:19 tailwind.config.js
+-rw-rw-r--     1 root root      1160 May 22 21:19 template_config.json
+-rw-rw-r--     1 root root       163 May 22 21:19 vite.config.js
+$ find public -name "*.png" -o -name "*.svg"
+
+public/assets/images/Dr_Leonardo.png
+public/assets/images/Dr_Luis.png
+public/assets/images/Dr_Marcos.png
+public/assets/images/anniversary_logo.svg
+public/assets/images/logoMRVG.svg
+public/assets/images/logos/Logo_MRVG.svg
+public/assets/images/newLogo.svg
+public/assets/images/screenshot.png
+public/assets/images/team/Dr_Leonardo (1).png
+public/assets/images/team/Dr_Luis (1).png
+public/assets/images/team/Dr_Marcos (1).png
+$ find src -name "*.jsx" -o -name "*.js" | xargs grep -l "logo" 2>/dev/null
+
+src/components/AnniversaryBanner.jsx
+src/components/AnniversaryLogo.jsx
+src/components/Header.jsx
+src/components/Hero.jsx
+src/utils/blogData.js
+$ cp /data/chats/eayp7/workspace/uploads/logo_original.png public/assets/images/anniversary_logo.png
+

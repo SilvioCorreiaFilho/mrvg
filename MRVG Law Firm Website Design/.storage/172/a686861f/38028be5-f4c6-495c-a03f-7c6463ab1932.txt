@@ -1,0 +1,51 @@
+$ ls -la
+total 880963
+drwxrwxr-x 19732 root root 254812160 May 26 16:09 .
+drwxr-xr-x 20427 root root 392515584 May 26 16:10 ..
+-rw-rw-r--     1 root root       253 May 22 21:19 .gitignore
+-rw-rw-r--     1 root root      1185 May 22 21:19 README.md
+-rw-rw-r--     1 root root      1476 May 22 21:19 eslint.config.js
+-rw-rw-r--     1 root root      1054 May 22 21:19 index.html
+drwxr-xr-x 19664 root root 250847232 May 26 16:09 node_modules
+-rw-rw-r--     1 root root       986 May 23 18:29 package.json
+-rw-r--r--     1 root root    124636 May 23 18:29 pnpm-lock.yaml
+-rw-rw-r--     1 root root        80 May 22 21:19 postcss.config.js
+drwxrwxr-x    40 root root   3686400 May 22 21:19 public
+drwxrwxr-x    19 root root    110592 May 22 21:19 src
+-rw-rw-r--     1 root root       170 May 22 21:19 tailwind.config.js
+-rw-rw-r--     1 root root      1160 May 22 21:19 template_config.json
+-rw-rw-r--     1 root root       163 May 22 21:19 vite.config.js
+$ ls -la public && echo "------" && ls -la src
+
+total 256036
+drwxrwxr-x    40 root root   3686400 May 22 21:19 .
+drwxrwxr-x 19732 root root 254812160 May 26 16:09 ..
+drwxrwxr-x    37 root root   3674112 May 22 21:19 assets
+drwxrwxr-x     3 root root      8192 May 22 21:19 data
+------
+total 249044
+drwxrwxr-x    19 root root    110592 May 22 21:19 .
+drwxrwxr-x 19732 root root 254812160 May 26 16:09 ..
+-rw-rw-r--     1 root root      1719 May 23 07:33 App.jsx
+drwxrwxr-x    13 root root     77824 May 22 21:19 components
+-rw-rw-r--     1 root root      1134 May 23 18:14 index.css
+-rw-rw-r--     1 root root       229 May 22 21:19 main.jsx
+drwxrwxr-x     3 root root     16384 May 22 21:19 utils
+$ cd /data/chats/eayp7/workspace/react_template && ls -la src/components/
+
+total 243
+drwxrwxr-x 13 root root  77824 May 22 21:19 .
+drwxrwxr-x 19 root root 110592 May 22 21:19 ..
+-rw-rw-r--  1 root root   5928 May 22 21:19 About.jsx
+-rw-rw-r--  1 root root   1001 May 23 17:57 AnniversaryBanner.jsx
+-rw-rw-r--  1 root root    703 May 23 17:57 AnniversaryLogo.jsx
+-rw-rw-r--  1 root root   3913 May 22 21:19 Blog.jsx
+-rw-rw-r--  1 root root   7723 May 22 21:19 ChatBot.jsx
+-rw-rw-r--  1 root root  11923 May 22 21:19 Contact.jsx
+-rw-rw-r--  1 root root   6728 May 23 06:00 Footer.jsx
+-rw-rw-r--  1 root root   9052 May 23 18:38 Header.jsx
+-rw-rw-r--  1 root root   2143 May 23 07:32 Hero.jsx
+-rw-rw-r--  1 root root   3671 May 22 21:19 Services.jsx
+-rw-rw-r--  1 root root   3718 May 22 21:19 Team.jsx
+$ mkdir -p /data/chats/eayp7/workspace/react_template/public/assets/images && cp /data/chats/eayp7/workspace/uploads/Anos.png /data/chats/eayp7/workspace/react_template/public/assets/images/anniversary_logo.png
+
